@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>428</string>
+	<string>444.4</string>
 	<key>AMApplicationVersion</key>
-	<string>2.7</string>
+	<string>2.8</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>curl http://www.nationalgeographic.com/photography/photo-of-the-day/\?source\=sitenav | grep -m 1 "http://yourshot.nationalgeographic.com/u/" | cut -f 4 -d \"</string>
+					<string>curl https://www.nationalgeographic.com/photography/photo-of-the-day/\?source\=sitenav | grep -m 1 "https://yourshot.nationalgeographic.com/u" | cut -f 4 -d \"</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -172,7 +172,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:253.000000</string>
+				<string>384.000000:253.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -252,7 +252,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:434.000000</string>
+				<string>384.000000:434.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/View Results.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -358,7 +358,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>309.000000:537.000000</string>
+				<string>384.000000:537.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Download URLs.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -440,21 +440,21 @@
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>0A55B1E0-83EE-4FC8-8F21-0BFA4BE21DA3</key>
-		<dict>
-			<key>from</key>
-			<string>02E6E07B-6033-4332-BD1C-CF1C75B630D5 - 02E6E07B-6033-4332-BD1C-CF1C75B630D5</string>
-			<key>to</key>
-			<string>5E69A4DE-5149-49AD-A6DD-EB63FF1B0060 - 5E69A4DE-5149-49AD-A6DD-EB63FF1B0060</string>
-		</dict>
-		<key>5A70C206-566B-451F-8A6A-70B4138FEEB7</key>
+		<key>76A7A33F-BEA7-4B4C-8999-4172CB8889D7</key>
 		<dict>
 			<key>from</key>
 			<string>5E69A4DE-5149-49AD-A6DD-EB63FF1B0060 - 5E69A4DE-5149-49AD-A6DD-EB63FF1B0060</string>
 			<key>to</key>
 			<string>5D954E58-9288-4915-B673-F04C271B4C0B - 5D954E58-9288-4915-B673-F04C271B4C0B</string>
 		</dict>
-		<key>E06CDE87-1E33-489E-84A2-75610858673A</key>
+		<key>EFD43F4A-D977-4477-90E2-6ABA484B1837</key>
+		<dict>
+			<key>from</key>
+			<string>02E6E07B-6033-4332-BD1C-CF1C75B630D5 - 02E6E07B-6033-4332-BD1C-CF1C75B630D5</string>
+			<key>to</key>
+			<string>5E69A4DE-5149-49AD-A6DD-EB63FF1B0060 - 5E69A4DE-5149-49AD-A6DD-EB63FF1B0060</string>
+		</dict>
+		<key>FEC6491E-FFE7-4405-9D55-0836BB7FB7F1</key>
 		<dict>
 			<key>from</key>
 			<string>5D954E58-9288-4915-B673-F04C271B4C0B - 5D954E58-9288-4915-B673-F04C271B4C0B</string>
